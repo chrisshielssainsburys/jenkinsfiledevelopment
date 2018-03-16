@@ -29,7 +29,7 @@ pipeline {
         }
         stage('error') {
           steps {
-            sh 'echo that was a nice cup of tea'
+            sh 'echo that was a nice cup of tea 2'
           }
         }
       }
